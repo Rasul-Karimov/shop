@@ -1,0 +1,49 @@
+@keyframes span1 {
+    0% {
+        transform: rotate(0) translate(0);
+    }
+    100% {
+        transform: rotate(45deg) translate(0px, 17px);
+    }
+}
+@keyframes span2 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes span3 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-45deg) translate(0, -17px);
+    }
+}
+
+@keyframes span-back1 {
+    0% {
+        transform: rotate(45deg) translate(0, 22px);
+    }
+    100% {
+        transform: rotate(0) translate(0);
+    }
+}
+@keyframes span-back2 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes span-back3 {
+    0% {
+        transform: rotate(-45deg) translate(0, -21px);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}

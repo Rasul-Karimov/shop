@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -29,25 +30,47 @@
                             </ul>
                         </nav>
                     </div>
-                    <a href="" class="top-header__user">
-                        <img src="icons/login.svg" alt="">
-                        <p>Личный Кабинет</p>
+                    <a href="" class="top-header__user _icon-login">
+                        Личный Кабинет
                     </a>
                     <button class="icon-menu"><span></span><span></span><span></span></button>
                 </div>
             </div>
-
             <div class="header__body body-header">
-
+                <div class="body-header__container container">
+                    <a href="" class="body-header__logo _icon-logo">
+                    </a>
+                    <div class="body-header__search">
+                        <form action="#" class="search-header">
+                            <button type="submit" class="search-header__button _icon-search"></button>
+                            <input class="search-header__input" type="text" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="body-header__actions actions-header">
+                        <a href="" class="actions-header__location _icon-location">Москва</a>
+                        <div class="actions-header__phones phones-header">
+                            <a href="tel:88007774967" class="phones-header__phone">8-800-777-49-67</a>
+                            <button type="button" class="phones-header__callback ">Заказать звонок</button>
+                        </div>
+                        <a href="" class="actions-header__favourite _icon-favaorite_"></a>
+                        <div class="actions-header__card card-header">
+                            <div class="card-header__icon _icon-card"><span>0</span></div>
+                            <div class="card-header__body">
+                                <div class="card-header__summ">0 р.</div>
+                                <a href="" class="card-header__link">Оформить заказ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="header__catalog catalog-header">
-
             </div>
         </header>
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"> </script>
     <script type="module" src="js/main.js"></script>
+
 </body>
 
 </html>
